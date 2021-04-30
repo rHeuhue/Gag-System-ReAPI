@@ -68,8 +68,8 @@ new Array:g_aGagTimes,
 
 public plugin_init()
 {
-	register_plugin("Gag System", VERSION, "TheRedShoko @ AMXX-BG.info");
-	register_cvar("gagsystem_shoko", VERSION, FCVAR_SERVER|FCVAR_SPONLY|FCVAR_UNLOGGED);
+	register_plugin("Gag System", VERSION, "TheRedShoko, Huehue");
+	register_cvar("gagsystem_amxxbg", VERSION, FCVAR_SERVER|FCVAR_SPONLY|FCVAR_UNLOGGED);
 
 	register_clcmd("say", "CommandSayExecuted");
 	register_clcmd("say_team", "CommandSayExecuted");
